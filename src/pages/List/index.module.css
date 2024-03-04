@@ -1,0 +1,29 @@
+.header{
+  height: 45px;
+  padding: 0 10px;
+  background-color: #f6f5f6;
+}
+.searchHeader :global(.icon-zuojiantou){
+  font-size: 16px;
+  color: #999;
+}
+.searchHeader :global(.icon-ditu){
+  color: #00ae66;
+}
+.header :global(.search){
+  height: 30px;
+}
+.searchHeader {
+  position: relative;
+  top: 0;
+  padding: 0;
+} 
+.houseItems {
+  padding: 0 15px;
+}
+.loading {
+  line-height: 120px;
+  text-align: center;
+  height: 110px;
+  background-color: #f6f5f6;
+}

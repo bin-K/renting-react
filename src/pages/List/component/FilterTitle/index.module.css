@@ -1,0 +1,21 @@
+.root {
+    height: 40px;
+    border-bottom: 1px solid rgb(173, 168, 168);
+}
+.dropdown {
+    align-items: center;
+    font-size: 16px;
+    padding-left: 20px;
+    text-align: center;
+    color: #333;
+}
+.dropdown :global(.icon-xialajiantou) {
+    margin-left: 4px;
+    font-size: 13px;
+    color: #7f7f80;
+}
+.selected { 
+    color: rgb(12, 151, 133) !important;
+    font-size: 18px;
+    font-weight: bold;
+}

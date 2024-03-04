@@ -1,0 +1,38 @@
+/* 设置网页的基本样式 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 375px;
+  max-width: 980px;
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  /* 去除轮播图 chrome浏览器的错误 */
+  touch-action: pan-y;
+}
+
+h1,h2,p,ul,dd,dl {
+  margin: 0;
+}
+/* 设置高度为100%，为百度地图撑开展示的空间 */
+html,body,#root {
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+
+.body-fixed{
+  overflow: hidden;
+}
+/* 页面没有加载出来的时候展示内容的样式 */
+.route-loading {
+  padding-top: 100px;
+  text-align: center;
+}

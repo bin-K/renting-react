@@ -1,0 +1,56 @@
+.root {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: calc(100% - 100px);
+    overflow: auto;
+    background-color: #fff;
+}
+.mask {
+    position: fixed;
+    width: 20%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.3);
+}
+.footer {
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+}
+.tags {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.name {
+    height: 35px;
+    padding-left: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 35px;
+}
+.child {
+    border-bottom: 2px solid #eee;
+    margin-top: 10px;
+}
+.tag{
+    display: inline-block;
+    border: 2px solid #ccc;
+    margin: 0 0 10px 12px;
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    color: #ccc;
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    border-radius: 6px;
+}
+.tagActive {
+    border: 2px solid rgb(113, 247, 227);
+    background-color:rgba(98, 212, 195, 0.3);
+    color:rgb(73, 110, 105);
+}
